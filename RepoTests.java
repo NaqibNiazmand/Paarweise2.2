@@ -37,5 +37,4 @@ public class RepoTests {
 		assertFalse(simple_example.isWellSorted(new String[] { "A", "A", "A", "A" }));
 	}
 
-
 }

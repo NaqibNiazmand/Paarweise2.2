@@ -32,4 +32,10 @@ public class RepoTests {
 		assertFalse(simple_example.isWellSorted(new String[] { "D", "C", "B", "A" }));
 	}
 
+	@Test
+	public void test_simple_example_4() {
+		assertFalse(simple_example.isWellSorted(new String[] { "A", "A", "A", "A" }));
+	}
+
+
 }

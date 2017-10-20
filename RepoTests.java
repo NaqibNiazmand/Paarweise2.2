@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ProjectTester {
+public class RepoTests {
   Project simple_example, simple_cycle, complex_cycle, complex_graph;
 
   @Before
